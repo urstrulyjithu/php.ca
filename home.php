@@ -1,72 +1,56 @@
-<style type="text/css">
- 
-  .secondrow > .row {
-     border: 1px solid #ddd;
-    /*padding: 5px 30px;*/
-    text-align: center; 
-    margin: 20px;
-    min-height: 50px;
-     border-radius: 50%;
-  }
-  .imgstretch{ 
-    padding: 10px 30px;
-  }
-  .imgstretch img {
-    width: 100%;
-    height: 100px;
-  }
 
- 
-</style>
-
-<div class="container">
-  <h3>Administrator Panel:Welcome <?php echo $_SESSION['NAME'];?></h3>
- 
-  <div class="row"> 
-    <div class="col-md-6 secondrow">
-      <div class="row">
-        <a href="<?php echo web_root; ?>admin/modules/lesson/index.php" title="Lessons"> 
-        <div class="imgstretch">
-          <img src="<?php echo web_root; ?>admin/adminMenu/images/lesson1.gif"> 
-         </div>
-         <label>Lessons</label>
-        </a>
-      </div>
-    </div> 
-    <div class="col-md-6 secondrow">
-      <div class="row">
-        <a href="<?php echo web_root; ?>admin/modules/exercises/index.php" title="Exercises"> 
-        <div class="imgstretch">
-          <img src="<?php echo web_root; ?>admin/adminMenu/images/exercises.jpg"> 
-         </div>
-         <label>Exercises</label>
-        </a>
-      </div>
-    </div> 
-  </div>
-    <div class="row">
-       <?php if($_SESSION['TYPE']=="Administrator"){ ?>
-    <div class="col-md-6 secondrow">
-      <div class="row">
-        <a href="<?php echo web_root; ?>admin/modules/user/index.php" title="Manage Users"> 
-        <div class="imgstretch">
-          <img src="<?php echo web_root; ?>admin/adminMenu/images/user.png"> 
-         </div>
-         <label>Manage Users</label>
-        </a>
-      </div>
-    </div>
-  <?php } ?>
-    <div class="col-md-6 secondrow">
-      <div class="row">
-        <a href="<?php echo web_root; ?>admin/modules/report/index.php" title="Reports"> 
-        <div class="imgstretch">
-          <img src="<?php echo web_root; ?>admin/adminMenu/images/report1.png"> 
-         </div>
-         <label>Reports</label>
-        </a>
-      </div>
-    </div> 
-  </div>
-  
+<div class="col-lg-12">  
+<h4>Mandate</h4>
+    <p> we provide professional training in technology, arts and humanities, education and other related fields. It shall also undertake research, extension services and production activities and provide progressive leadership in its areas of specialization.</p> 
 </div>
+<div  class="col-lg-6">
+  <h4>Vision</h4> 
+  <p>Center of Academic Excellence Delivering Quality Service to all.</p>
+  <h4>Mission</h4>
+  <p> we are committed to provide advanced knowledge and innovation; develop skills, talents and values; undertake relevant research; development and extension services; promote entrepreneurship and environmental consciousness; and enhance industry collaboration  & linkages with partner agencies.</p>
+  <h4>Goals</h4> 
+  <ol>
+    <li>Globally competitive graduates</li>  
+    <li>Institutionalize research culture</li> 
+    <li>Responsive and sustainable extension services</li> 
+    <li>Maximized profit of variable agro-industrial business ventures</li>  
+    <li>Effective and efficient administration </li>  
+  </ol>
+
+  <h4>Objectives</h4> 
+   <ol>
+      <li>Create an environment of shared leadership and responsibilities with competent administrator.</li>
+      <li>Provide relevant trainings and seminar to faculty, staff, and student.</li>
+      <li>Produce highly competitive graduates.</li>
+      <li>Conduct relevant and updated researches</li>
+      <li>Extend financial support and manpower for outreach activities.</li> 
+   </ol> 
+</div>
+<div  class="col-lg-6">
+  <h4>Guiding Principles</h4> 
+    <ul>
+      <li>Academic Freedom </li>
+      <li>Responsibility</li>
+      <li> Academic Standards</li>  
+    </ul>
+<h4>Core Values</h4>
+  <ul>
+    <li>God-Centered</li>
+    <li>Excellence</li>
+    <li>Integrity</li>
+    <li>Transparency and Accountability</li>
+    <li>Dedication to Quality Service</li>  
+  </ul> 
+<h4>Quality Policy</h4> 
+<ol>
+    <li>we are committed to be the center of academic excellence delivering quality service to all by;</li> 
+    <li>Continuing innovations and quality improvement cultivating an efficient and effective and environment for maximum clientele satisfaction;</li> 
+    <li>Adhering to laws and regulations, global standards, and environmental change requirements;</li> 
+    <li>Participating in sustainable developments projects for inclusive economic for inclusive 
+economic growth;</li> 
+    <li>Showcasing quality outputs; and,</li> 
+    <li>Upholding values and integrity and nurturing talents and skills for global competitiveness.</li>  
+</ol>
+</div>
+ 
+
